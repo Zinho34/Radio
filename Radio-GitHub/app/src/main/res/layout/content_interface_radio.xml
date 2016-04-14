@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.app.zinho.radio.InterfaceRadio"
+    android:background="#ffffff"
+    tools:showIn="@layout/activity_interface_radio"
+    android:contentDescription="@string/resbtn">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:contentDescription="@string/chillinradiologo"
+        android:src="@drawable/chillinradio_final"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/stop"
+        android:contentDescription="@string/resbutton"
+        android:background="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/reslabel"
+        android:id="@+id/artisteson"
+        android:textSize="28sp"
+        android:textStyle="normal|bold|italic"
+        android:gravity="center"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/reslbl"
+        android:id="@+id/titreson"
+        android:singleLine="false"
+        android:gravity="center"
+        android:layout_below="@+id/artisteson"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/facebookButton"
+        android:contentDescription="@string/facebook"
+        android:background="#ffffff"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/twitterButton"
+        android:src="@drawable/facebook_final_2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/twitterButton"
+        android:contentDescription="@string/twitter"
+        android:background="#ffffff"
+        android:layout_marginRight="2dp"
+        android:layout_alignTop="@+id/facebookButton"
+        android:layout_toLeftOf="@+id/soundcloundButton"
+        android:src="@drawable/twitter_final" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/soundcloundButton"
+        android:contentDescription="@string/soundclound"
+        android:background="#ffffff"
+        android:layout_alignTop="@+id/facebookButton"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/soundclound_final" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/snapchatButton"
+        android:contentDescription="@string/snapchat"
+        android:background="#ffffff"
+        android:layout_marginLeft="2dp"
+        android:layout_alignTop="@+id/facebookButton"
+        android:layout_toRightOf="@+id/soundcloundButton"
+        android:src="@drawable/snapchat_final_2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/periscopeButton"
+        android:contentDescription="@string/periscope"
+        android:background="#ffffff"
+        android:layout_marginLeft="2dp"
+        android:layout_alignTop="@+id/facebookButton"
+        android:layout_toRightOf="@+id/snapchatButton"
+        android:src="@drawable/periscope_final_2" />
+
+</RelativeLayout>

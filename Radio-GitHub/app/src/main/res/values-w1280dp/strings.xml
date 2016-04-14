@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logo">logo</string>
+    <string name="facebookButton">facebookButton</string>
+    <string name="facebook">facebook</string>
+    <string name="twitter">twitter</string>
+    <string name="soundclound">soundclound</string>
+    <string name="snapchat">snapchat</string>
+    <string name="periscope">periscope</string>
+    <string name="chillinradiologo">chillinlogo</string>
+</resources>

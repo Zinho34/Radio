@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ChillinRadio</string>
+    <string name="resbtn">Radio</string>
+    <string name="resbutton">Live</string>
+    <string name="reslabel">Artiste</string>
+    <string name="reslbl">Titre</string>
+    <string name="facebook">facebook</string>
+    <string name="twitter">twitter</string>
+    <string name="soundclound">soundclound</string>
+    <string name="snapchat">snapchat</string>
+    <string name="periscope">periscope</string>
+    <string name="chillinradiologo">chillinlogo</string>
+</resources>
